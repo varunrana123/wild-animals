@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    border-bottom:3px solid hotpink;
+    border-right: 3px solid hotpink;
+    box-shadow: 5px 5px 6px grey;
+    width: 400px;
+    font-family: century;
+    font-size: 3em;
+    text-align: center;
+}
+img {
+   width: 550px;
+   height: 400px;
+   margin: 20px;
+   transition: all 1s;
+}
+ 
+img:hover {
+   transform: scale(1.1)   
+ }
